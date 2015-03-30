@@ -1,0 +1,140 @@
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+html {
+	background: rgb(0, 0, 0);
+	color: rgb(221, 221, 221);
+	font-family: sans-serif;
+}
+@font-face {
+    font-family: 'Anony mous';
+    src: url('Anonymous.ttf') format('truetype'),
+    	 url('Anonymous.eot') format('embedded-opentype'),
+    	 url('Anonymous.woff') format('woff'),
+    	 url('Anonymous.woff2') format('woff2'),
+    	 url('Anonymous.svg') format('svg');
+}
+
+.clearfix {
+	clear: both;
+}
+.skill-container {
+	position: relative;
+	display: inline-block;
+}
+
+#project aside .skills-tab .skills-sidebar .has-skill-true {
+opacity: 1;
+}
+
+#project aside .skills-tab .skills-sidebar .skill {
+margin: 7px 3px;
+}
+.skill-type-html {
+	color: rgb(236, 95, 103);
+}
+.skill-type-css {
+color: rgb(253, 194, 70);
+}
+.skill-type-javascript {
+color: rgb(0, 199, 193);
+}
+.skill {
+	background: rgb(68, 68, 68);
+	background-image: -webkit-linear-gradient(top, rgb(76, 76, 76) 49%, rgb(68, 68, 68) 51%);
+	background-image: -moz-linear-gradient(top, #4c4c4c 49%, #444 51%);
+	background-image: -ms-linear-gradient(top, #4c4c4c 49%, #444 51%);
+	border-radius: 25px;
+	padding: 7px 16px;
+	font-family: 'Anony mous', monospace;
+	font-size: 14px;
+	margin-right: 3px;
+	cursor: help;
+	margin-bottom: 10px;
+	display: inline-block;
+	box-shadow: 0px 1px 2px rgb(17, 17, 17);
+}
+
+.skill-example-holder {
+	display: none;
+}
+
+
+.CodeRay {
+font-size: 9px;
+color: rgb(204, 204, 204);
+padding: 0;
+}
+.CodeRay .code {
+width: 100%;
+}
+.CodeRay .code pre {
+overflow-wrap: break-word;
+font-family: 'Anony mous', monospace;
+}
+.CodeRay pre {
+margin: 0px;
+}
+/*tag*/
+.CodeRay .tag {
+color: rgb(242, 119, 122);
+}
+
+.CodeRay .attribute-name {
+color: #F2777A;
+}
+.CodeRay .string {
+color: #D20;
+}
+
+.CodeRay .string .delimiter {
+color: #9C9;
+}
+.CodeRay .string .content {
+color: #9C9;
+}
+.CodeRay .type {
+color: #C0C0C0;
+}
+.CodeRay .key {
+color: #FDC246;
+}
+.CodeRay .value {
+color: #F5783B;
+}
+.CodeRay .predefined {
+color: #57C1C0;
+font-weight: bold;
+}
+.CodeRay .reserved, .keyword {
+color: #C083C0;
+font-weight: bold;
+}
+
+
+
+#project aside {
+position: absolute;
+right: 0;
+top: 21px;
+}
+
+#project aside .skills-tab {
+width: 500px;
+padding: 10px 20px;
+margin: 0;
+margin-bottom: 60px;
+}
+
+#project .container {
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	width: 1150px;
+	position: relative;
+}
+
+.popover .popover-title {
+	text-transform: uppercase;
+	font-size: 24px;
+}
